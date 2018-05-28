@@ -29,7 +29,7 @@ If you use this source code for your academic publication, please cite our TIP p
 	  doi = {10.1109/TIP.2016.2607425},
 	  year={2016}
 	}
-##4. Installation
+## 4. Installation
 
 #### Dependencies
 - [CVD - 20150407](https://www.edwardrosten.com/cvd/)  ( Linux compile option `./configure --with-jpeg --with-png --with-tiff` )
