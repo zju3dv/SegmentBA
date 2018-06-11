@@ -12,7 +12,7 @@ ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a feature t
 
 ## 2. Related Publications
 
-[1] Guofeng Zhang, Haomin Liu, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, and Hujun Bao. **Efficient Non-Consecutive Feature Tracking for Robust Structure-from-Motion**. *IEEE Transactions on Image Processing*, accepted. DOI: 10.1109/TIP.2016.2607425. [**[arXiv report](http://arxiv.org/abs/1510.08012)**].[[**video**](http://www.cad.zju.edu.cn/home/gfzhang/projects/tracking/featuretracking/ENFT-video.wmv)].
+[1] Guofeng Zhang*, Haomin Liu, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, and Hujun Bao*. **Efficient Non-Consecutive Feature Tracking for Robust Structure-from-Motion**. IEEE Transactions on Image Processing, 25(12): 5957 – 5970, 2016. [**[arXiv report](http://arxiv.org/abs/1510.08012)**].[[**video**](http://www.cad.zju.edu.cn/home/gfzhang/projects/tracking/featuretracking/ENFT-video.wmv)].
 
 [2] Guofeng Zhang, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, and Hujun Bao. **Efficient Non-Consecutive Feature Tracking for Structure-from-Motion**. *European Conference on Computer Vision (ECCV)*, 2010.
 
