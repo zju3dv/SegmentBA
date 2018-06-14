@@ -26,9 +26,13 @@ If you use this source code for your academic publication, please cite our TIP p
 	  title={Efficient Non-Consecutive Feature Tracking for Robust Structure-from-Motion},
 	  author={Guofeng Zhang, Haomin Liu, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, Hujun Bao},
 	  journal={IEEE Transactions on Image Processing},
+	  volume = {25},
+	  number = {12},
+	  papges = {5957--5970},
 	  doi = {10.1109/TIP.2016.2607425},
 	  year={2016}
 	}
+	
 ## 4. Installation
 
 #### Dependencies
