@@ -4,7 +4,7 @@ This source code provides the segment-based bundle adjustment implementation.
 
 The whole executable SfM system and more datasets can be found at [LS-ACT Homepage](http://www.zjucvg.net/ls-acts/ls-acts.html) .
 
-For **ENFT** feature tracking implementation, please go to [ENFT](https://github.com/HaominLiu/ENFT).
+For **ENFT** feature tracking implementation, please go to [ENFT](https://github.com/ZJUCVG/ENFT).
 
 ## 1. Introduction
 
