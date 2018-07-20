@@ -18,7 +18,7 @@ ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a feature t
 
 ## 3. License
 
-ENFT is released under a [GPLv3 license](http://choosealicense.com/licenses/gpl-3.0/). If you need a closed-source version of ENFT for commercial purposes, please contact [Guofeng Zhang](mailto:zhangguofeng@cad.zju.edu.cn).
+SegmentBA is released under a [GPLv3 license](http://choosealicense.com/licenses/gpl-3.0/). If you need a closed-source version of ENFT for commercial purposes, please contact [Guofeng Zhang](mailto:zhangguofeng@cad.zju.edu.cn).
 
 If you use this source code for your academic publication, please cite our TIP paper:
 
