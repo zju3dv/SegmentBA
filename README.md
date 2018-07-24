@@ -46,7 +46,7 @@ The project has been tested in Visual Studio 2015 and Ubuntu 14.04/16.04 (GCC Ve
 
 For Windows version, open `SegmentBasedBA.sln` and build.
 
-For Ubuntu 14.04, you should [update to GCC 5](https://gist.github.com/beci/2a2091f282042ed20cda) at first, and modify this line in `CMakeLists.txt` from
+For Ubuntu 14.04, you should [upgrade to GCC 5](https://gist.github.com/beci/2a2091f282042ed20cda) at first, and modify this line in `CMakeLists.txt` from
 ```
 ${PROJECT_SOURCE_DIR}/3rdLibs/CVD/linux_lib/16.04/libcvd.a
 ```
