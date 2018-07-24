@@ -12,7 +12,7 @@ ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a feature t
 
 ## 2. Related Publications
 
-[1] Guofeng Zhang*, Haomin Liu, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, and Hujun Bao*. **Efficient Non-Consecutive Feature Tracking for Robust Structure-from-Motion**. IEEE Transactions on Image Processing, 25(12): 5957 – 5970, 2016. [**[arXiv report](http://arxiv.org/abs/1510.08012)**].[[**video**](http://www.cad.zju.edu.cn/home/gfzhang/projects/tracking/featuretracking/ENFT-video.wmv)].
+[1] Guofeng Zhang*, Haomin Liu, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, and Hujun Bao*. **Efficient Non-Consecutive Feature Tracking for Robust Structure-from-Motion**. IEEE Transactions on Image Processing, 25(12): 5957 â€“ 5970, 2016. [**[arXiv report](http://arxiv.org/abs/1510.08012)**].[[**video**](http://www.cad.zju.edu.cn/home/gfzhang/projects/tracking/featuretracking/ENFT-video.wmv)].
 
 [2] Guofeng Zhang, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, and Hujun Bao. **Efficient Non-Consecutive Feature Tracking for Structure-from-Motion**. *European Conference on Computer Vision (ECCV)*, 2010.
 
@@ -129,11 +129,11 @@ The format of **track match file** is showed below.
 #multiple sequences track match file
 <MapCmnTrkToIdvTrk>
 MapSize
-TrackSize0
+TrackLength0
 SequenceIndex0 TrackIndex0
 SequenceIndex1 TrackIndex1
 ...
-TrackSize1
+TrackLength1
 SequenceIndex0 TrackIndex0
 SequenceIndex1 TrackIndex1
 ...
@@ -141,9 +141,9 @@ SequenceIndex1 TrackIndex1
 
 <MapIdvTrkToCmnTrk>
 IndividualSequenseNumber
-TrackSizeInSeq0
+TrackLengthInSeq0
 IdvTrk_0_ToCmnTrkIndex IdvTrk_1_ToCmnTrkIndex IdvTrk_2_ToCmnTrkIndex ...
-TrackSizeInSeq1
+TrackLengthInSeq1
 IdvTrk_0_ToCmnTrkIndex IdvTrk_1_ToCmnTrkIndex IdvTrk_2_ToCmnTrkIndex ...
 ...
 </MapIdvTrkToCmnTrk>
@@ -151,12 +151,12 @@ IdvTrk_0_ToCmnTrkIndex IdvTrk_1_ToCmnTrkIndex IdvTrk_2_ToCmnTrkIndex ...
 
 - `MapCmnTrkToIdvTrk` Map common tracks to individual tracks. 
 
-	- `MapSize` is the size of common tracks. `TrackSize0` is the size of *common track 0* . For example, when *common track 0* maps to two individual tracks, `TrackSize0=2`. 
+	- `MapSize` is the size of common tracks. `TrackLength0` is the length of *common track 0* . For example, when *common track 0* maps to two individual tracks, `TrackLength0=2`. 
 	- `SequenceIndex?` and `TrackIndex?` specifies the track(with `TrackIndex?` ) in individual sequence(with `SequenceIndex?` ).
 
 - `MapIdvTrkToCmnTrk` Map individual tracks to common tracks.
 	-  `IndividualSequenseNumber` is the number of individual sequences.
-	- `TrackSizeInSeq0` is the size of tracks in sequence 0. 
+	- `TrackLengthInSeq0` is the length of tracks in sequence 0. 
 	- `IdvTrk_0_ToCmnTrkIndex` map current *individual track 0* to corresponding common track index. When no mapping between this indivdual track and common track, the value should be set to `-1`.
 
 - The order of tracks in individual sequences should be the same as in camera track files.
